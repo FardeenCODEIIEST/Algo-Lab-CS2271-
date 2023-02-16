@@ -1,0 +1,7558 @@
+
+NUMBER OF ELEMENTS: 2
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.087000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.020000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.000000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 4
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 6
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.000000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 6
+Time taken: 0.000000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 6
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4
+Time taken: 0.000000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 6
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 8
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 16
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 16
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 16
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 20
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.021000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 16
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 20
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 16
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.021000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 16
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 20
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 16
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.021000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 16
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 20
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 16
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 18
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.020000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.019000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 16
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 42
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 56
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 45
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 56
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 70
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 88
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.000000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.000000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 47
+Time taken: 0.001000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 51
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 59
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 62
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.016000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 32
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 138
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.004000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 137
+Time taken: 0.005000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.004000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.017000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.003000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.003000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.003000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.003000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.003000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.012000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.003000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 121
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 121
+Time taken: 0.004000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 159
+Time taken: 0.004000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 159
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 164
+Time taken: 0.004000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 0
+Time taken: 0.014000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 64
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 305
+Time taken: 0.009000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.009000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 405
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 366
+Time taken: 0.007000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 527
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.007000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 293
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.006000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 370
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.007000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 443
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.007000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 9
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.009000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.005000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.004000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.005000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.004000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.004000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.003000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.005000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.007000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.006000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.006000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.003000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.001000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.001000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.006000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.002000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.006000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 308
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 304
+Time taken: 0.002000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 363
+Time taken: 0.002000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 338
+Time taken: 0.002000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 375
+Time taken: 0.003000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 447
+Time taken: 0.001000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7
+Time taken: 0.006000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 9
+Time taken: 0.006000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 128
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 733
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.006000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 817
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 899
+Time taken: 0.007000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1005
+Time taken: 0.009000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.007000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 34
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.008000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 734
+Time taken: 0.008000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.007000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 930
+Time taken: 0.007000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 919
+Time taken: 0.006000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 993
+Time taken: 0.009000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.008000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 34
+Time taken: 0.009000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 723
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.014000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 838
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 952
+Time taken: 0.014000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 957
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.014000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 730
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.012000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 802
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 885
+Time taken: 0.014000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1006
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.014000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 723
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.012000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 838
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 952
+Time taken: 0.013000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 957
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.011000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 730
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.011000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 802
+Time taken: 0.011000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 885
+Time taken: 0.011000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1006
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.010000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 723
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.009000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 838
+Time taken: 0.011000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 952
+Time taken: 0.011000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 957
+Time taken: 0.012000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.008000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.012000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 730
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.009000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 802
+Time taken: 0.011000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 885
+Time taken: 0.011000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1006
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.009000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 723
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.014000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 838
+Time taken: 0.012000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 952
+Time taken: 0.013000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 957
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.015000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.024000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 730
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 742
+Time taken: 0.013000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 802
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 885
+Time taken: 0.013000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1006
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 975
+Time taken: 0.012000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 33
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 36
+Time taken: 0.012000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 256
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1717
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.026000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2201
+Time taken: 0.025000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1910
+Time taken: 0.025000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2400
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.026000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 117
+Time taken: 0.031000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.026000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2135
+Time taken: 0.025000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1947
+Time taken: 0.024000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2631
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.024000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.017000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1734
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.023000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2131
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2255
+Time taken: 0.025000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2487
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.023000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1729
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.021000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1906
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1904
+Time taken: 0.023000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2067
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.021000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1738
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.020000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2003
+Time taken: 0.024000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2319
+Time taken: 0.023000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2377
+Time taken: 0.025000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.020000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.016000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1729
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.020000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2035
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2077
+Time taken: 0.024000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2545
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.020000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 107
+Time taken: 0.016000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.014000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1728
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.018000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2057
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1987
+Time taken: 0.024000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3197
+Time taken: 0.029000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.018000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.015000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.015000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1738
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.018000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2055
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2255
+Time taken: 0.020000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2464
+Time taken: 0.023000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.017000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.013000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1729
+Time taken: 0.024000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.016000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1906
+Time taken: 0.021000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1904
+Time taken: 0.020000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2067
+Time taken: 0.022000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.016000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.014000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.012000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1738
+Time taken: 0.022000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1726
+Time taken: 0.016000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2003
+Time taken: 0.020000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2319
+Time taken: 0.020000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 2377
+Time taken: 0.022000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 2261
+Time taken: 0.016000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 105
+Time taken: 0.013000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132
+Time taken: 0.013000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 512
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3959
+Time taken: 0.053000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.047000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5184
+Time taken: 0.047000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 4846
+Time taken: 0.046000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5588
+Time taken: 0.052000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.050000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 300
+Time taken: 0.035000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.024000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3947
+Time taken: 0.055000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.048000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4554
+Time taken: 0.047000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 4811
+Time taken: 0.046000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6227
+Time taken: 0.051000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.050000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 285
+Time taken: 0.022000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.024000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3956
+Time taken: 0.055000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.043000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4760
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5037
+Time taken: 0.043000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6092
+Time taken: 0.046000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.044000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 284
+Time taken: 0.021000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.020000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3976
+Time taken: 0.049000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.042000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5031
+Time taken: 0.042000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5003
+Time taken: 0.042000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6591
+Time taken: 0.048000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.044000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 282
+Time taken: 0.020000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.020000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3972
+Time taken: 0.050000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.043000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4704
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 4811
+Time taken: 0.042000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6223
+Time taken: 0.048000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.045000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 283
+Time taken: 0.018000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.020000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3956
+Time taken: 0.048000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.042000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4760
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5037
+Time taken: 0.042000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6092
+Time taken: 0.046000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.043000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 284
+Time taken: 0.018000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.021000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3976
+Time taken: 0.049000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.043000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5031
+Time taken: 0.040000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5003
+Time taken: 0.040000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6591
+Time taken: 0.047000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.043000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 282
+Time taken: 0.018000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.019000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3972
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.038000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4704
+Time taken: 0.037000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 4811
+Time taken: 0.038000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6223
+Time taken: 0.042000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.040000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 283
+Time taken: 0.017000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.018000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3956
+Time taken: 0.049000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.047000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 4760
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5037
+Time taken: 0.041000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6092
+Time taken: 0.044000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.043000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 284
+Time taken: 0.036000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.021000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3976
+Time taken: 0.046000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3962
+Time taken: 0.044000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 5031
+Time taken: 0.040000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5003
+Time taken: 0.039000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 6591
+Time taken: 0.044000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 5884
+Time taken: 0.042000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 282
+Time taken: 0.018000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 322
+Time taken: 0.019000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 1024
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8960
+Time taken: 0.095000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.093000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 10816
+Time taken: 0.082000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 10674
+Time taken: 0.079000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12746
+Time taken: 0.087000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.087000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 738
+Time taken: 0.050000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.034000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8966
+Time taken: 0.096000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.092000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 10737
+Time taken: 0.081000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11254
+Time taken: 0.082000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 13454
+Time taken: 0.088000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.087000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 737
+Time taken: 0.030000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.033000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8958
+Time taken: 0.095000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.089000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11649
+Time taken: 0.081000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.077000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 14266
+Time taken: 0.087000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.086000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.031000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.032000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.093000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.088000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.078000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.074000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.086000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.084000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.030000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.032000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.091000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.087000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.075000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.068000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.078000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.077000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.029000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.089000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.088000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.073000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.073000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.082000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.081000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.043000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.032000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.086000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.084000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.071000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.069000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.078000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.079000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.028000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.030000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.084000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.082000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.070000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.068000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.076000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.079000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.030000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.083000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.082000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.069000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.068000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.076000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.079000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.027000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.029000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 8964
+Time taken: 0.082000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 8963
+Time taken: 0.082000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 11389
+Time taken: 0.069000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 11864
+Time taken: 0.074000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 12873
+Time taken: 0.076000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 14160
+Time taken: 0.077000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727
+Time taken: 0.026000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 766
+Time taken: 0.029000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 2048
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19930
+Time taken: 0.185000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.180000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 26326
+Time taken: 0.160000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 24625
+Time taken: 0.160000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 28587
+Time taken: 0.171000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.168000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1674
+Time taken: 0.083000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.073000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19881
+Time taken: 0.191000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.188000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 26194
+Time taken: 0.159000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 24667
+Time taken: 0.152000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32329
+Time taken: 0.182000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.166000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1683
+Time taken: 0.057000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.071000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19884
+Time taken: 0.185000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.183000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 27513
+Time taken: 0.159000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25592
+Time taken: 0.152000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32703
+Time taken: 0.172000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.161000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1686
+Time taken: 0.056000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.070000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19907
+Time taken: 0.188000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.185000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 27354
+Time taken: 0.157000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25164
+Time taken: 0.157000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 29615
+Time taken: 0.175000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.166000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1673
+Time taken: 0.060000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.070000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19898
+Time taken: 0.179000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.183000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 25638
+Time taken: 0.153000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25030
+Time taken: 0.156000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 28738
+Time taken: 0.169000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.158000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1684
+Time taken: 0.055000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.073000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19906
+Time taken: 0.185000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.185000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 25419
+Time taken: 0.162000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 26658
+Time taken: 0.151000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 30126
+Time taken: 0.162000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.164000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1673
+Time taken: 0.058000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.070000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19897
+Time taken: 0.189000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.172000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 25414
+Time taken: 0.150000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 27065
+Time taken: 0.147000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32233
+Time taken: 0.173000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.161000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1685
+Time taken: 0.054000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.068000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19904
+Time taken: 0.187000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.175000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 25616
+Time taken: 0.149000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25592
+Time taken: 0.151000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 30953
+Time taken: 0.173000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.160000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1672
+Time taken: 0.054000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.069000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19907
+Time taken: 0.182000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.184000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 27354
+Time taken: 0.156000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25164
+Time taken: 0.156000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 29615
+Time taken: 0.170000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.167000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1673
+Time taken: 0.057000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.069000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 19898
+Time taken: 0.179000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 19950
+Time taken: 0.184000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 25638
+Time taken: 0.153000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 25030
+Time taken: 0.156000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 28738
+Time taken: 0.168000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 30992
+Time taken: 0.172000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1684
+Time taken: 0.058000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1773
+Time taken: 0.070000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 4096
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43968
+Time taken: 0.387000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.394000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57955
+Time taken: 0.325000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 56174
+Time taken: 0.346000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 73112
+Time taken: 0.365000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.360000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3646
+Time taken: 0.196000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.217000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43969
+Time taken: 0.389000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.397000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57991
+Time taken: 0.339000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55060
+Time taken: 0.339000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 72269
+Time taken: 0.355000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.383000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3654
+Time taken: 0.147000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.210000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44017
+Time taken: 0.382000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.393000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54218
+Time taken: 0.351000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55393
+Time taken: 0.351000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 70797
+Time taken: 0.386000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.379000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3658
+Time taken: 0.141000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.206000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43969
+Time taken: 0.384000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.393000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57991
+Time taken: 0.340000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55060
+Time taken: 0.346000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 72269
+Time taken: 0.377000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.357000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3654
+Time taken: 0.146000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.207000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44017
+Time taken: 0.412000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.401000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54218
+Time taken: 0.342000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55393
+Time taken: 0.351000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 70797
+Time taken: 0.399000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.359000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3658
+Time taken: 0.146000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.209000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43969
+Time taken: 0.410000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.410000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57991
+Time taken: 0.341000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55060
+Time taken: 0.350000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 72269
+Time taken: 0.357000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.368000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3654
+Time taken: 0.141000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.205000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44017
+Time taken: 0.407000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.405000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54218
+Time taken: 0.346000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55393
+Time taken: 0.353000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 70797
+Time taken: 0.386000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.383000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3658
+Time taken: 0.151000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.222000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43969
+Time taken: 0.410000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.383000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57991
+Time taken: 0.322000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55060
+Time taken: 0.331000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 72269
+Time taken: 0.362000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.358000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3654
+Time taken: 0.149000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.222000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 44017
+Time taken: 0.402000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.382000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 54218
+Time taken: 0.329000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55393
+Time taken: 0.329000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 70797
+Time taken: 0.370000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.357000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3658
+Time taken: 0.142000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.217000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 43969
+Time taken: 0.393000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 43992
+Time taken: 0.402000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 57991
+Time taken: 0.341000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 55060
+Time taken: 0.349000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 72269
+Time taken: 0.357000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 68713
+Time taken: 0.356000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 3654
+Time taken: 0.152000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 3779
+Time taken: 0.207000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 8192
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96178
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.832000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 116352
+Time taken: 0.694000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 126975
+Time taken: 0.701000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 157918
+Time taken: 0.799000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.765000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7687
+Time taken: 0.521000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.699000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96101
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.875000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 130523
+Time taken: 0.733000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 127559
+Time taken: 0.740000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 153559
+Time taken: 0.811000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.757000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7718
+Time taken: 0.426000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.670000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96118
+Time taken: 0.881000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.866000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 117737
+Time taken: 0.703000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 123514
+Time taken: 0.682000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 149901
+Time taken: 0.765000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.777000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7724
+Time taken: 0.411000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.669000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96102
+Time taken: 0.832000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.876000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 143996
+Time taken: 0.703000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 131544
+Time taken: 0.711000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 152850
+Time taken: 0.783000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.749000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7719
+Time taken: 0.396000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.667000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96136
+Time taken: 0.832000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.827000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 117260
+Time taken: 0.706000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 127308
+Time taken: 0.695000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 150993
+Time taken: 0.755000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.753000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7720
+Time taken: 0.395000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.670000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96068
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.829000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 118168
+Time taken: 0.702000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 134550
+Time taken: 0.725000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 160862
+Time taken: 0.764000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.754000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7729
+Time taken: 0.397000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.668000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96122
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.827000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 122244
+Time taken: 0.698000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 131624
+Time taken: 0.714000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 145546
+Time taken: 0.746000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.757000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7726
+Time taken: 0.397000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.666000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96119
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.828000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 125569
+Time taken: 0.699000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 132699
+Time taken: 0.701000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 139892
+Time taken: 0.746000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.749000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7714
+Time taken: 0.397000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.666000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96127
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.828000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 117662
+Time taken: 0.707000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 124762
+Time taken: 0.691000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 140948
+Time taken: 0.736000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.748000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7720
+Time taken: 0.399000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.666000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 96078
+Time taken: 0.833000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 96201
+Time taken: 0.827000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 127488
+Time taken: 0.700000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 120901
+Time taken: 0.685000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 149031
+Time taken: 0.766000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 145839
+Time taken: 0.747000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 7721
+Time taken: 0.398000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 7820
+Time taken: 0.667000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 16384
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208672
+Time taken: 1.796000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.773000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 276636
+Time taken: 1.485000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 267110
+Time taken: 1.471000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 335964
+Time taken: 1.607000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.600000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15851
+Time taken: 1.524000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.466000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208813
+Time taken: 1.813000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.775000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 264202
+Time taken: 1.464000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 294492
+Time taken: 1.513000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 334933
+Time taken: 1.609000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.599000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15802
+Time taken: 1.381000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.491000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208661
+Time taken: 1.791000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.820000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 259472
+Time taken: 1.473000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 285470
+Time taken: 1.487000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 300154
+Time taken: 1.601000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.598000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15802
+Time taken: 1.469000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.565000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208613
+Time taken: 1.787000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.777000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 269747
+Time taken: 1.496000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 261642
+Time taken: 1.514000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 320716
+Time taken: 1.602000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.607000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15808
+Time taken: 1.382000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.460000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208783
+Time taken: 1.790000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.777000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 281113
+Time taken: 1.494000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 282988
+Time taken: 1.478000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 341166
+Time taken: 1.623000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.596000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15798
+Time taken: 1.370000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.458000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208600
+Time taken: 1.791000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.774000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 275086
+Time taken: 1.506000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 272542
+Time taken: 1.463000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 298548
+Time taken: 1.570000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.595000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15813
+Time taken: 1.344000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.451000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208580
+Time taken: 1.786000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.827000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 272461
+Time taken: 1.501000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 261642
+Time taken: 1.518000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 321938
+Time taken: 1.627000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.594000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15804
+Time taken: 1.356000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.456000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208783
+Time taken: 1.792000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.776000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 281113
+Time taken: 1.494000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 282988
+Time taken: 1.479000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 341166
+Time taken: 1.623000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.595000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15798
+Time taken: 1.355000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.470000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208600
+Time taken: 1.788000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.785000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 275086
+Time taken: 1.530000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 272542
+Time taken: 1.461000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 298548
+Time taken: 1.574000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.599000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15813
+Time taken: 1.354000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.628000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 208580
+Time taken: 1.788000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 208679
+Time taken: 1.780000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 272461
+Time taken: 1.502000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 261642
+Time taken: 1.516000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 321938
+Time taken: 1.745000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 310596
+Time taken: 1.655000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 15804
+Time taken: 1.385000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 15935
+Time taken: 2.461000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 32768
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450262
+Time taken: 3.825000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.786000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 583305
+Time taken: 3.126000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 591022
+Time taken: 3.123000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 779347
+Time taken: 3.567000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.410000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32123
+Time taken: 4.776000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.786000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450149
+Time taken: 3.799000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.783000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 579243
+Time taken: 3.132000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 570203
+Time taken: 3.114000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 691849
+Time taken: 3.401000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.423000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32115
+Time taken: 4.758000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.795000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450110
+Time taken: 3.804000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.785000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 581541
+Time taken: 3.174000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 583212
+Time taken: 3.153000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 716161
+Time taken: 3.442000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.407000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32105
+Time taken: 5.147000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 10.136000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450206
+Time taken: 3.816000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.787000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 571480
+Time taken: 3.168000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 589882
+Time taken: 3.121000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 775047
+Time taken: 3.531000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.406000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32107
+Time taken: 4.746000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.821000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450067
+Time taken: 3.805000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.782000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 635527
+Time taken: 3.305000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 588190
+Time taken: 3.133000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 786351
+Time taken: 3.557000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.403000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32108
+Time taken: 4.697000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.805000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450067
+Time taken: 3.804000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.782000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 604709
+Time taken: 3.221000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 611226
+Time taken: 3.168000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 691168
+Time taken: 3.399000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.422000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32099
+Time taken: 4.724000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.800000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450181
+Time taken: 3.803000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.782000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 582186
+Time taken: 3.176000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 622397
+Time taken: 3.190000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 727581
+Time taken: 3.474000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.411000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32102
+Time taken: 4.779000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.788000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450044
+Time taken: 3.814000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.800000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 597510
+Time taken: 3.207000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 567014
+Time taken: 3.215000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 682978
+Time taken: 3.670000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.641000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32114
+Time taken: 5.085000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 10.158000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450177
+Time taken: 3.815000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.785000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 570988
+Time taken: 3.162000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 651166
+Time taken: 3.304000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 733824
+Time taken: 3.426000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.406000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32105
+Time taken: 4.727000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.744000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 450173
+Time taken: 3.821000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 450064
+Time taken: 3.784000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 616025
+Time taken: 3.210000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 570203
+Time taken: 3.112000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 705270
+Time taken: 3.436000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 716355
+Time taken: 3.411000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 32112
+Time taken: 4.702000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 32279
+Time taken: 9.795000 milliseconds
+
+
+
+NUMBER OF ELEMENTS: 65536
+
+DATASET COMBINATION: 1
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965791
+Time taken: 8.094000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965721
+Time taken: 8.049000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1329380
+Time taken: 6.710000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1271137
+Time taken: 6.660000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1449692
+Time taken: 7.175000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1500940
+Time taken: 7.264000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64794
+Time taken: 17.712000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64975
+Time taken: 38.113000 milliseconds
+
+
+
+DATASET COMBINATION: 2
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965797
+Time taken: 8.080000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965890
+Time taken: 8.178000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1323768
+Time taken: 6.756000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1259958
+Time taken: 6.744000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1476173
+Time taken: 7.249000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1480503
+Time taken: 7.111000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64845
+Time taken: 17.861000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64997
+Time taken: 39.447000 milliseconds
+
+
+
+DATASET COMBINATION: 3
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965901
+Time taken: 8.057000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965890
+Time taken: 8.050000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1333454
+Time taken: 6.844000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1246630
+Time taken: 6.767000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1479742
+Time taken: 7.208000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1480503
+Time taken: 7.136000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64856
+Time taken: 17.687000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64997
+Time taken: 39.335000 milliseconds
+
+
+
+DATASET COMBINATION: 4
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 966039
+Time taken: 8.105000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965890
+Time taken: 8.068000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1294226
+Time taken: 6.655000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1244955
+Time taken: 6.729000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1459078
+Time taken: 7.221000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1480503
+Time taken: 7.128000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64855
+Time taken: 17.558000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64997
+Time taken: 39.332000 milliseconds
+
+
+
+DATASET COMBINATION: 5
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 966039
+Time taken: 8.103000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965890
+Time taken: 8.059000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1294226
+Time taken: 6.665000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1244955
+Time taken: 6.721000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1459078
+Time taken: 7.212000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1480503
+Time taken: 7.116000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64855
+Time taken: 17.567000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64997
+Time taken: 39.372000 milliseconds
+
+
+
+DATASET COMBINATION: 6
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 966039
+Time taken: 8.111000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965890
+Time taken: 8.048000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1294226
+Time taken: 6.633000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1244955
+Time taken: 6.715000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1459078
+Time taken: 7.219000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1480503
+Time taken: 7.144000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64855
+Time taken: 17.641000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64997
+Time taken: 39.500000 milliseconds
+
+
+
+DATASET COMBINATION: 7
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 966039
+Time taken: 8.093000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965790
+Time taken: 8.085000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1243578
+Time taken: 6.627000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1342887
+Time taken: 6.735000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1459078
+Time taken: 7.199000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1505029
+Time taken: 7.221000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64855
+Time taken: 17.541000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64967
+Time taken: 41.733000 milliseconds
+
+
+
+DATASET COMBINATION: 8
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965703
+Time taken: 8.169000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965790
+Time taken: 8.362000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1255452
+Time taken: 6.837000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1245842
+Time taken: 6.903000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1410028
+Time taken: 7.218000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1505029
+Time taken: 7.514000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64818
+Time taken: 18.137000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64967
+Time taken: 41.009000 milliseconds
+
+
+
+DATASET COMBINATION: 9
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965709
+Time taken: 8.089000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965790
+Time taken: 8.040000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1246360
+Time taken: 6.658000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1237523
+Time taken: 6.630000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1548405
+Time taken: 7.365000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1505029
+Time taken: 7.231000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64820
+Time taken: 17.795000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64967
+Time taken: 40.714000 milliseconds
+
+
+
+DATASET COMBINATION: 10
+
+
+MERGE SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 965603
+Time taken: 8.065000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 965790
+Time taken: 8.095000 milliseconds
+
+RANDOMISED QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1232443
+Time taken: 6.845000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1237204
+Time taken: 6.607000 milliseconds
+
+QUICK SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 1478047
+Time taken: 7.142000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 1505029
+Time taken: 7.227000 milliseconds
+
+BUCKET SORT:
+
+UNIFORM DATASET
+
+Number of comparisons made: 64818
+Time taken: 17.580000 milliseconds
+
+NORMAL DATASET
+
+Number of comparisons made: 64967
+Time taken: 40.673000 milliseconds
+
+

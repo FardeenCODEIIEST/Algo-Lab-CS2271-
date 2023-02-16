@@ -1,0 +1,694 @@
+SUMMARISED RESULTS: 
+Lower Bound: 10
+Upper Bound: 20
+Constant is calculated w.r.t. 
+-> n log2 n for Merge, Quick and Randomised Quick Sort 
+-> n for Bucket Sort 
+
+RESULTS FOR DATASET SIZE 2:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0025
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0013
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0020
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0010
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0009
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0010
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0005
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0018
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0009
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0013
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0006
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0347
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0174
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0172
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0086
+
+RESULTS FOR DATASET SIZE 4:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 5
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.6250
+Constant (Time): 0.0002
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 5
+Average Time Taken: 0.0013
+Constant (Comparisons): 0.6250
+Constant (Time): 0.0002
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 4
+Average Time Taken: 0.0008
+Constant (Comparisons): 0.5000
+Constant (Time): 0.0001
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 5
+Average Time Taken: 0.0008
+Constant (Comparisons): 0.6250
+Constant (Time): 0.0001
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 5
+Average Time Taken: 0.0015
+Constant (Comparisons): 0.6250
+Constant (Time): 0.0002
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 6
+Average Time Taken: 0.0010
+Constant (Comparisons): 0.7500
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0155
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0039
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0148
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0037
+
+RESULTS FOR DATASET SIZE 8:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 15
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.6250
+Constant (Time): 0.0001
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 16
+Average Time Taken: 0.0015
+Constant (Comparisons): 0.6667
+Constant (Time): 0.0001
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 19
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.7917
+Constant (Time): 0.0001
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 18
+Average Time Taken: 0.0015
+Constant (Comparisons): 0.7500
+Constant (Time): 0.0001
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 17
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.7083
+Constant (Time): 0.0001
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 18
+Average Time Taken: 0.0012
+Constant (Comparisons): 0.7500
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0223
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0028
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0195
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0024
+
+RESULTS FOR DATASET SIZE 16:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 43
+Average Time Taken: 0.0020
+Constant (Comparisons): 0.6719
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 47
+Average Time Taken: 0.0013
+Constant (Comparisons): 0.7344
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 55
+Average Time Taken: 0.0018
+Constant (Comparisons): 0.8594
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 50
+Average Time Taken: 0.0011
+Constant (Comparisons): 0.7812
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 61
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.9531
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 62
+Average Time Taken: 0.0017
+Constant (Comparisons): 0.9688
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 1
+Average Time Taken: 0.0158
+Constant (Comparisons): 0.0625
+Constant (Time): 0.0010
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0156
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0010
+
+RESULTS FOR DATASET SIZE 32:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 121
+Average Time Taken: 0.0034
+Constant (Comparisons): 0.7562
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 121
+Average Time Taken: 0.0026
+Constant (Comparisons): 0.7562
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 142
+Average Time Taken: 0.0028
+Constant (Comparisons): 0.8875
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 159
+Average Time Taken: 0.0026
+Constant (Comparisons): 0.9938
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 156
+Average Time Taken: 0.0029
+Constant (Comparisons): 0.9750
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 164
+Average Time Taken: 0.0027
+Constant (Comparisons): 1.0250
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 2
+Average Time Taken: 0.0152
+Constant (Comparisons): 0.0625
+Constant (Time): 0.0005
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 0
+Average Time Taken: 0.0139
+Constant (Comparisons): 0.0000
+Constant (Time): 0.0004
+
+RESULTS FOR DATASET SIZE 64:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 306
+Average Time Taken: 0.0045
+Constant (Comparisons): 0.7969
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 304
+Average Time Taken: 0.0037
+Constant (Comparisons): 0.7917
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 367
+Average Time Taken: 0.0034
+Constant (Comparisons): 0.9557
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 340
+Average Time Taken: 0.0030
+Constant (Comparisons): 0.8854
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 397
+Average Time Taken: 0.0039
+Constant (Comparisons): 1.0339
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 447
+Average Time Taken: 0.0035
+Constant (Comparisons): 1.1641
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 7
+Average Time Taken: 0.0100
+Constant (Comparisons): 0.1094
+Constant (Time): 0.0002
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 9
+Average Time Taken: 0.0094
+Constant (Comparisons): 0.1406
+Constant (Time): 0.0001
+
+RESULTS FOR DATASET SIZE 128:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 727
+Average Time Taken: 0.0132
+Constant (Comparisons): 0.8114
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 742
+Average Time Taken: 0.0107
+Constant (Comparisons): 0.8281
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 830
+Average Time Taken: 0.0113
+Constant (Comparisons): 0.9263
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 916
+Average Time Taken: 0.0113
+Constant (Comparisons): 1.0223
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 985
+Average Time Taken: 0.0126
+Constant (Comparisons): 1.0993
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 975
+Average Time Taken: 0.0108
+Constant (Comparisons): 1.0882
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 33
+Average Time Taken: 0.0153
+Constant (Comparisons): 0.2578
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 36
+Average Time Taken: 0.0129
+Constant (Comparisons): 0.2812
+Constant (Time): 0.0001
+
+RESULTS FOR DATASET SIZE 256:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 1730
+Average Time Taken: 0.0262
+Constant (Comparisons): 0.8447
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 1726
+Average Time Taken: 0.0204
+Constant (Comparisons): 0.8428
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 2043
+Average Time Taken: 0.0230
+Constant (Comparisons): 0.9976
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 2087
+Average Time Taken: 0.0228
+Constant (Comparisons): 1.0190
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 2461
+Average Time Taken: 0.0255
+Constant (Comparisons): 1.2017
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 2261
+Average Time Taken: 0.0201
+Constant (Comparisons): 1.1040
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 106
+Average Time Taken: 0.0167
+Constant (Comparisons): 0.4141
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 132
+Average Time Taken: 0.0150
+Constant (Comparisons): 0.5156
+Constant (Time): 0.0001
+
+RESULTS FOR DATASET SIZE 512:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 3964
+Average Time Taken: 0.0497
+Constant (Comparisons): 0.8602
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 3962
+Average Time Taken: 0.0437
+Constant (Comparisons): 0.8598
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 4851
+Average Time Taken: 0.0425
+Constant (Comparisons): 1.0527
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 4939
+Average Time Taken: 0.0419
+Constant (Comparisons): 1.0718
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 6231
+Average Time Taken: 0.0468
+Constant (Comparisons): 1.3522
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 5884
+Average Time Taken: 0.0444
+Constant (Comparisons): 1.2769
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 284
+Average Time Taken: 0.0223
+Constant (Comparisons): 0.5547
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 322
+Average Time Taken: 0.0206
+Constant (Comparisons): 0.6289
+Constant (Time): 0.0000
+
+RESULTS FOR DATASET SIZE 1024:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 8963
+Average Time Taken: 0.0894
+Constant (Comparisons): 0.8753
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 8963
+Average Time Taken: 0.0867
+Constant (Comparisons): 0.8753
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 11292
+Average Time Taken: 0.0749
+Constant (Comparisons): 1.1027
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 11684
+Average Time Taken: 0.0732
+Constant (Comparisons): 1.1410
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 13057
+Average Time Taken: 0.0814
+Constant (Comparisons): 1.2751
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 14160
+Average Time Taken: 0.0816
+Constant (Comparisons): 1.3828
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 729
+Average Time Taken: 0.0319
+Constant (Comparisons): 0.7119
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 766
+Average Time Taken: 0.0310
+Constant (Comparisons): 0.7480
+Constant (Time): 0.0000
+
+RESULTS FOR DATASET SIZE 2048:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 19901
+Average Time Taken: 0.1850
+Constant (Comparisons): 0.8834
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 19950
+Average Time Taken: 0.1819
+Constant (Comparisons): 0.8856
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 26246
+Average Time Taken: 0.1558
+Constant (Comparisons): 1.1650
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 25458
+Average Time Taken: 0.1538
+Constant (Comparisons): 1.1301
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 30363
+Average Time Taken: 0.1715
+Constant (Comparisons): 1.3478
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 30992
+Average Time Taken: 0.1643
+Constant (Comparisons): 1.3757
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 1678
+Average Time Taken: 0.0592
+Constant (Comparisons): 0.8193
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 1773
+Average Time Taken: 0.0703
+Constant (Comparisons): 0.8657
+Constant (Time): 0.0000
+
+RESULTS FOR DATASET SIZE 4096:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 43988
+Average Time Taken: 0.3976
+Constant (Comparisons): 0.8949
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 43992
+Average Time Taken: 0.3960
+Constant (Comparisons): 0.8950
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 56478
+Average Time Taken: 0.3376
+Constant (Comparisons): 1.1490
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 55304
+Average Time Taken: 0.3445
+Constant (Comparisons): 1.1252
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 71764
+Average Time Taken: 0.3714
+Constant (Comparisons): 1.4600
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 68713
+Average Time Taken: 0.3660
+Constant (Comparisons): 1.3980
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 3654
+Average Time Taken: 0.1511
+Constant (Comparisons): 0.8921
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 3779
+Average Time Taken: 0.2122
+Constant (Comparisons): 0.9226
+Constant (Time): 0.0001
+
+RESULTS FOR DATASET SIZE 8192:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 96114
+Average Time Taken: 0.8376
+Constant (Comparisons): 0.9025
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 96201
+Average Time Taken: 0.8415
+Constant (Comparisons): 0.9033
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 123699
+Average Time Taken: 0.7045
+Constant (Comparisons): 1.1615
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 128143
+Average Time Taken: 0.7045
+Constant (Comparisons): 1.2033
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 150150
+Average Time Taken: 0.7671
+Constant (Comparisons): 1.4099
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 145839
+Average Time Taken: 0.7556
+Constant (Comparisons): 1.3694
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 7717
+Average Time Taken: 0.4137
+Constant (Comparisons): 0.9420
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 7820
+Average Time Taken: 0.6708
+Constant (Comparisons): 0.9546
+Constant (Time): 0.0001
+
+RESULTS FOR DATASET SIZE 16384:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 208668
+Average Time Taken: 1.7922
+Constant (Comparisons): 0.9097
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 208679
+Average Time Taken: 1.7864
+Constant (Comparisons): 0.9098
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 272737
+Average Time Taken: 1.4945
+Constant (Comparisons): 1.1890
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 274305
+Average Time Taken: 1.4900
+Constant (Comparisons): 1.1959
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 321507
+Average Time Taken: 1.6181
+Constant (Comparisons): 1.4017
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 310596
+Average Time Taken: 1.6038
+Constant (Comparisons): 1.3541
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 15809
+Average Time Taken: 1.3920
+Constant (Comparisons): 0.9649
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 15935
+Average Time Taken: 2.4906
+Constant (Comparisons): 0.9726
+Constant (Time): 0.0002
+
+RESULTS FOR DATASET SIZE 32768:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 450143
+Average Time Taken: 3.8106
+Constant (Comparisons): 0.9158
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 450064
+Average Time Taken: 3.7856
+Constant (Comparisons): 0.9157
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 592251
+Average Time Taken: 3.1881
+Constant (Comparisons): 1.2049
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 594451
+Average Time Taken: 3.1633
+Constant (Comparisons): 1.2094
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 728957
+Average Time Taken: 3.4903
+Constant (Comparisons): 1.4831
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 716355
+Average Time Taken: 3.4340
+Constant (Comparisons): 1.4574
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 32109
+Average Time Taken: 4.8141
+Constant (Comparisons): 0.9799
+Constant (Time): 0.0001
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 32279
+Average Time Taken: 9.8628
+Constant (Comparisons): 0.9851
+Constant (Time): 0.0003
+
+RESULTS FOR DATASET SIZE 65536:
+
+MERGE SORT: UNIFORM DATASET 
+Average Number of comparisons: 965866
+Average Time Taken: 8.0966
+Constant (Comparisons): 0.9211
+Constant (Time): 0.0000
+MERGE SORT: NORMAL DATASET 
+Average Number of comparisons: 965833
+Average Time Taken: 8.1034
+Constant (Comparisons): 0.9211
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 1284711
+Average Time Taken: 6.7230
+Constant (Comparisons): 1.2252
+Constant (Time): 0.0000
+RANDOMISED QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 1257604
+Average Time Taken: 6.7211
+Constant (Comparisons): 1.1993
+Constant (Time): 0.0000
+QUICK SORT: UNIFORM DATASET 
+Average Number of comparisons: 1467839
+Average Time Taken: 7.2208
+Constant (Comparisons): 1.3998
+Constant (Time): 0.0000
+QUICK SORT: NORMAL DATASET 
+Average Number of comparisons: 1492357
+Average Time Taken: 7.2092
+Constant (Comparisons): 1.4232
+Constant (Time): 0.0000
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 64837
+Average Time Taken: 17.7079
+Constant (Comparisons): 0.9893
+Constant (Time): 0.0003
+BUCKET SORT: UNIFORM DATASET 
+Average Number of comparisons: 64982
+Average Time Taken: 39.9228
+Constant (Comparisons): 0.9915
+Constant (Time): 0.0006
