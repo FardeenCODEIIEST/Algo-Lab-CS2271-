@@ -93,13 +93,14 @@ int partition(int *arr, int start, int final)
 int find_partition_size_MoM(int *arr, int arr_size, int divide_size)
 {
   int val = median_of_median(arr, arr_size, divide_size);
-
-  for (int i = 0; i < arr_size; i++)
+  int i;
+  for (i = 0; i < arr_size; i++)
     if (arr[i] == val)
     {
-      swap(&arr[0], &arr[i]);
-      return partition(arr, 0, arr_size - 1);
+      break;
     }
+  swap(&arr[0], &arr[i]);
+  return partition(arr, 0, arr_size - 1);
 }
 
 void toArray(int *arr, int n)
