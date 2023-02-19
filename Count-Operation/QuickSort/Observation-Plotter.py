@@ -10,15 +10,15 @@ normal_dis = pd.read_csv('normal_distribution_obs_quick_maxsize.csv')
 n_uniform = uniform_dis['Size'].to_numpy()
 comparison_uniform = uniform_dis['Avg_Comparisons'].to_numpy()
 time_uniform = uniform_dis['Avg_Time_Taken'].to_numpy()
-comp_uni_ratio = 10 * comparison_uniform / (n_uniform * np.log2(n_uniform))
-time_uni_ratio = 10 * time_uniform / (n_uniform * np.log2(n_uniform))
+comp_uni_ratio = comparison_uniform / (n_uniform * np.log2(n_uniform))
+time_uni_ratio = time_uniform / (n_uniform * np.log2(n_uniform))
 
 #For Normal
 n_normal = normal_dis['Size'].to_numpy()
 comparison_normal = normal_dis['Avg_Comparisons'].to_numpy()
 time_normal = normal_dis['Avg_Time_Taken'].to_numpy()
-comp_nor_ratio = 10 * comparison_normal / (n_normal * np.log2(n_normal))
-time_nor_ratio = 10 * time_normal / (n_normal * np.log2(n_normal))
+comp_nor_ratio = comparison_normal / (n_normal * np.log2(n_normal))
+time_nor_ratio = time_normal / (n_normal * np.log2(n_normal))
 
 fig, axis = plt.subplots(2, 1, figsize=(8, 5))
 fig.suptitle(
