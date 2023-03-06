@@ -120,7 +120,7 @@ Polygon generatePolygon(int n)
 int main()
 {
   srand(time(0));
-  FILE *fp = fopen("PolygonDataset.txt", "w");
+  FILE *fp = fopen("PolygonDatasetRAW.txt", "w");
   for (int i = 3; i <= MAX; i++)
   {
     int cnt = 0;
@@ -132,12 +132,12 @@ int main()
       {
         poly = generatePolygon(i);
       } while (!isConvex(poly));
-      fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
+      // fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
       for (int k = 0; k < poly.total_vertices; k++)
       {
-        fprintf(fp, "(%d,%d) ", poly.vertices[k].x, poly.vertices[k].y);
+        fprintf(fp, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
       }
-      fprintf(fp, "\n");
+      // fprintf(fp, "\n");
       cnt++;
       printf("\r%f %% done", ((float)cnt) / TOTAL * 100);
     }
