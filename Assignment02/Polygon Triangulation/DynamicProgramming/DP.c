@@ -1,25 +1,27 @@
 /* Here we will be solving the polygon triangulation problem using a
-  recursive approach*/
+  DP approach*/
 
-/* Idea will be to divide the polygon into 3 parts:-
-  1. Two convex sub polygons
-  2. A triangle
-  At each step we will be finding the minimum perimeter value,
-  Our base case will reach when the there are 3 vertices as no further splitting
-  can be done*/
+/*
+  We will use the tabulation method to save the computated result
+  and will return the result bottom-up. Idea will be same as that of \
+  the recursive approach but here we will be remembering the previously
+  computed result to reduce the computation time
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
 
 // Maximum Vertices the Polygon can have
-#define MAX 20
+#define MAX 100
 
 // Maximum value of abscissa and ordinates
 #define MAX_VAL 200
 
 // Total number of polygons to be generated
 #define TOTAL 50
+
+double dp[MAX][MAX];
 
 typedef struct
 {
@@ -125,13 +127,48 @@ double minTriangulationCost(Vertex *points, int i, int j)
   return ans;
 }
 
+double minTriangulationCostDP(Vertex *points, int n)
+{
+  double Max = 1e7;
+  if (n <= 2)
+  {
+    return 0;
+  }
+  /* table[i][j] will store the min triangulation cost for vertices from points
+    i to j. Final ans will table[0][n-1]
+  */
+  for (int m = 0; m < n; m++)
+  {
+    for (int i = 0, j = m; i < n; i++, j++)
+    {
+      if (j <= i + 1)
+      {
+        dp[i][j] = 0.0;
+      }
+      else
+      {
+        dp[i][j] = Max;
+        for (int k = i + 1; k < j; k++)
+        {
+          double ans = dp[i][k] + dp[k][j] + cost(points, i, j, k);
+          dp[i][j] = min(dp[i][j], ans);
+        }
+      }
+    }
+  }
+  return dp[0][n - 1];
+}
+
 int main()
 {
   srand(time(0));
-  double minCost;
-  FILE *fout = fopen("ObservationBruteForce.csv", "w");
-  FILE *fp = fopen("Results.txt", "w");
+  double minCost, minCostDP;
+  FILE *fout = fopen("ObservationDPonly.csv", "w");
+  // FILE *fout1 = fopen("ObservationBruteForce.csv", "w");
+  FILE *fp1 = fopen("ResultsDPonly.txt", "w");
+  // FILE *fp2 = fopen("ResultsBruteForce.txt", "w");
   fprintf(fout, "Vertices,Avg.Time Taken\n");
+  // fprintf(fout1, "Vertices,Avg.Time Taken\n");
   for (int i = 3; i <= MAX; i++)
   {
     float time_sum = 0;
@@ -144,26 +181,39 @@ int main()
         poly = generatePolygon(i);
       } while (!isConvex(poly));
       Vertex points[i];
-      fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
+      fprintf(fp1, "Number of Vertices: %d\n", poly.total_vertices);
+      // fprintf(fp2, "Number of Vertices:%d\n", poly.total_vertices);
       for (int k = 0; k < poly.total_vertices; k++)
       {
         points[k].x = poly.vertices[k].x;
         points[k].y = poly.vertices[k].y;
-        fprintf(fp, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
+        fprintf(fp1, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
+        // fprintf(fp2, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
       }
+      // float start1 = clock();
+      // minCost = minTriangulationCost(points, 0, i - 1);
+      // float end1 = clock();
+      // fprintf(fp2, "Cost of Triangulation is %f\n", minCost);
       float start = clock();
-      minCost = minTriangulationCost(points, 0, i - 1);
-      fprintf(fp, "Cost of Triangulation is %f\n", minCost);
+      minCostDP = minTriangulationCostDP(points, i);
       float end = clock();
+      fprintf(fp1, "Cost of Triangulation is %f\n", minCostDP);
       float time_req = (end - start) * 1000 / CLOCKS_PER_SEC;
-      printf("Time taken for round %d is %0.4fms\n", j + 1, time_req);
+      // float time_req1 = (end1 - start1) * 1000 / CLOCKS_PER_SEC;
+      printf("Time taken for round %d using DP is %0.4fms\n", j + 1, time_req);
+      // printf("Time taken for round %d is %0.4fms\n", j + 1, time_req1);
       time_sum += time_req;
-      fprintf(fp, "\n");
+      // time_sum1 += time_req1;
+      fprintf(fp1, "\n");
+      // fprintf(fp2, "\n");
     }
+    // fprintf(fout1, "%d,%0.4f\n", i, time_sum1 / TOTAL);
     fprintf(fout, "%d,%0.4f\n", i, time_sum / TOTAL);
   }
   printf("\nFiles have been generated successfully\n");
-  fclose(fp);
+  fclose(fp1);
+  // fclose(fp2);
+  // fclose(fout1);
   fclose(fout);
   return 0;
 }
