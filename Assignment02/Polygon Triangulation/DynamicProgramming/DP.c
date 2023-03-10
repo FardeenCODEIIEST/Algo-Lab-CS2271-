@@ -13,7 +13,7 @@
 #include <math.h>
 
 // Maximum Vertices the Polygon can have
-#define MAX 100
+#define MAX 70
 
 // Maximum value of abscissa and ordinates
 #define MAX_VAL 200
