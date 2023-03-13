@@ -5,8 +5,8 @@ import numpy as np
 dis1 = pd.read_csv('ObservationDP.csv')
 dis2 = pd.read_csv('ObservationBruteForce.csv')
 
-bf = dis1['Avg.Time Taken'].to_numpy()
-dp = dis2['Avg.Time Taken'].to_numpy()
+bf = dis2['Avg.Time Taken'].to_numpy()
+dp = dis1['Avg.Time Taken'].to_numpy()
 n1 = dis1['Vertices'].to_numpy()
 n2 = dis2['Vertices'].to_numpy()
 
