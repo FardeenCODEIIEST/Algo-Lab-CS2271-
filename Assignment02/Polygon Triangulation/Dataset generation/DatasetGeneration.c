@@ -95,6 +95,21 @@ int isConvex(Polygon poly)
   return 1;
 }
 
+int cmp(const void *a, const void *b)
+{
+  Vertex a1 = *(Vertex *)a;
+  Vertex a2 = *(Vertex *)b;
+  double t1 = ((int)(atan2(a1.x - 100, a1.y - 100) + 360) % 360);
+  double t2 = ((int)(atan2(a2.x - 100, a2.y - 100) + 360) % 360);
+  return (int)(t2 - t1);
+}
+
+sortVertices(Polygon poly)
+{
+  int n = poly.total_vertices;
+  qsort(poly.vertices, n, sizeof(Vertex), cmp);
+}
+
 Polygon generatePolygon(int n)
 {
   Polygon P;
@@ -120,7 +135,7 @@ Polygon generatePolygon(int n)
 int main()
 {
   srand(time(0));
-  FILE *fp = fopen("PolygonDatasetRAW.txt", "w");
+  FILE *fp = fopen("PolygonDataset.txt", "w");
   for (int i = 3; i <= MAX; i++)
   {
     int cnt = 0;
@@ -132,12 +147,13 @@ int main()
       {
         poly = generatePolygon(i);
       } while (!isConvex(poly));
-      // fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
+      sortVertices(poly);
+      fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
       for (int k = 0; k < poly.total_vertices; k++)
       {
         fprintf(fp, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
       }
-      // fprintf(fp, "\n");
+      fprintf(fp, "\n");
       cnt++;
       printf("\r%f %% done", ((float)cnt) / TOTAL * 100);
     }
