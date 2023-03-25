@@ -54,6 +54,7 @@ void LINK(node *x, node *y)
   }
   else
   {
+    y->parent = x;
     x->rank++;
   }
 }
