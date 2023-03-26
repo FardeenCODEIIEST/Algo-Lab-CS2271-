@@ -97,17 +97,40 @@ int isConvex(Polygon poly)
 
 int cmp(const void *a, const void *b)
 {
-  Vertex a1 = *(Vertex *)a;
-  Vertex a2 = *(Vertex *)b;
-  double t1 = ((int)(atan2(a1.x - 100, a1.y - 100) + 360) % 360);
-  double t2 = ((int)(atan2(a2.x - 100, a2.y - 100) + 360) % 360);
-  return (int)(t2 - t1);
+  Vertex *p1 = (Vertex *)a;
+  Vertex *p2 = (Vertex *)b;
+  return (p1->x - p2->x);
 }
 
-sortVertices(Polygon poly)
+int orientation(Vertex v1, Vertex v2, Vertex v3) // for setting the orientation using cross product
 {
-  int n = poly.total_vertices;
-  qsort(poly.vertices, n, sizeof(Vertex), cmp);
+  int res = (v2.y - v1.y) * (v3.x - v2.x) - (v2.x - v1.x) * (v3.y - v2.y);
+  if (res == 0)
+  { // collinear
+    return 0;
+  }
+  return (res > 0) ? 1 : 2; // cw or acw
+}
+
+// Shoelace theorem for ordering of vertices
+void sort_vertices(Vertex *points, int n)
+{
+  int leftmost = 0;
+  for (int i = 1; i < n; i++)
+  { // finding the leftmost point
+    if (points[i].x < points[leftmost].x)
+    {
+      leftmost = i;
+    }
+  }
+  // swap leftmost with first point
+  Vertex temp = points[0];
+  points[0] = points[leftmost];
+  points[leftmost] = temp;
+
+  qsort(points + 1, n - 1, sizeof(Vertex), cmp);
+  int ct = 1; // Number of points in the sorted array
+  // reverse order if orientation is clockwise
 }
 
 Polygon generatePolygon(int n)
@@ -125,6 +148,7 @@ Polygon generatePolygon(int n)
     } while (!isConvex((Polygon){i, arr}));
     arr[i] = v;
   }
+  sort_vertices(arr, n); // ordering the vertices
   for (int i = 0; i < n; i++)
   {
     P.vertices[i] = arr[i];
@@ -147,7 +171,6 @@ int main()
       {
         poly = generatePolygon(i);
       } while (!isConvex(poly));
-      sortVertices(poly);
       fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
       for (int k = 0; k < poly.total_vertices; k++)
       {

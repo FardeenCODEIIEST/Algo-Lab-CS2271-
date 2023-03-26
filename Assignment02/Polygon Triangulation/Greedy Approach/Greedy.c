@@ -13,10 +13,10 @@
 #include <math.h>
 
 // Maximum Vertices the Polygon can have
-#define MAX 5
+#define MAX 70
 
 // Maximum value of abscissa and ordinates
-#define MAX_VAL 200
+#define MAX_VAL 100
 
 // Total number of polygons to be generated
 #define TOTAL 50
@@ -34,6 +34,13 @@ typedef struct
   int total_vertices;
   Vertex vertices[MAX];
 } Polygon;
+
+typedef struct
+{
+  int i;         // start
+  int j;         // end
+  double length; // length of diagonal
+} Diagonal;
 
 double min(double a, double b)
 {
@@ -82,6 +89,69 @@ int isConvex(Polygon poly)
   return 1;
 }
 
+int cmp_diag(const void *u, const void *v)
+{
+  Diagonal *du = (Diagonal *)u;
+  Diagonal *dv = (Diagonal *)v;
+  return (du->length < dv->length) ? 1 : -1;
+}
+
+int cmp(const void *a, const void *b)
+{
+  Vertex *p1 = (Vertex *)a;
+  Vertex *p2 = (Vertex *)b;
+  return (p1->x - p2->x);
+}
+
+// Checking for non-intersecting diagonals
+int intersects(Vertex a, Vertex b, Vertex c, Vertex d)
+{
+  int d1 = (b.x - a.x) * (c.y - a.y) - (c.x - a.x) * (b.y - a.y);
+  int d2 = (b.x - a.x) * (d.y - a.y) - (d.x - a.x) * (b.y - a.y);
+  int d3 = (d.x - c.x) * (a.y - c.y) - (a.x - c.x) * (d.y - c.y);
+  int d4 = (d.x - c.x) * (b.y - c.y) - (b.x - c.x) * (d.y - c.y);
+  return (d1 * d2 < 0) && (d3 * d4 < 0);
+}
+
+int orientation(Vertex v1, Vertex v2, Vertex v3) // for setting the orientation using cross product
+{
+  int res = (v2.y - v1.y) * (v3.x - v2.x) - (v2.x - v1.x) * (v3.y - v2.y);
+  if (res == 0)
+  { // collinear
+    return 0;
+  }
+  return (res > 0) ? 1 : 2; // cw or acw
+}
+
+// Shoelace theorem for ordering of vertices
+void sort_vertices(Vertex *points, int n)
+{
+  int leftmost = 0;
+  for (int i = 1; i < n; i++)
+  { // finding the leftmost point
+    if (points[i].x < points[leftmost].x)
+    {
+      leftmost = i;
+    }
+  }
+  // swap leftmost with first point
+  Vertex temp = points[0];
+  points[0] = points[leftmost];
+  points[leftmost] = temp;
+
+  qsort(points + 1, n - 1, sizeof(Vertex), cmp);
+  int ct = 1; // Number of points in the sorted array
+  // for (int i = 1; i < n; i++) // remove collinear
+  // {
+  //   while (i < n - 1 && orientation(points[0], points[i], points[i + 1]) == 0)
+  //   {
+  //     i++;
+  //   }
+  //   points[ct] = points[i];
+  //   ct++;
+  // }
+}
+
 Polygon generatePolygon(int n)
 {
   Polygon P;
@@ -97,6 +167,7 @@ Polygon generatePolygon(int n)
     } while (!isConvex((Polygon){i, arr}));
     arr[i] = v;
   }
+  sort_vertices(arr, n); // ordering the vertices
   for (int i = 0; i < n; i++)
   {
     P.vertices[i] = arr[i];
@@ -112,20 +183,20 @@ double cost(Vertex *points, int i, int j, int k)
   return dist(v1, v2) + dist(v2, v3) + dist(v3, v1);
 }
 
-double minTriangulationCost(Vertex *points, int i, int j)
-{
-  // Base Case
-  if (j <= i + 1)
-  {
-    return 0;
-  }
-  double ans = 1e7;
-  for (int k = i + 1; k < j; k++)
-  {
-    ans = min(ans, (minTriangulationCost(points, i, k) + minTriangulationCost(points, k, j) + cost(points, i, k, j)));
-  }
-  return ans;
-}
+// double minTriangulationCost(Vertex *points, int i, int j)
+// {
+//   // Base Case
+//   if (j <= i + 1)
+//   {
+//     return 0;
+//   }
+//   double ans = 1e7;
+//   for (int k = i + 1; k < j; k++)
+//   {
+//     ans = min(ans, (minTriangulationCost(points, i, k) + minTriangulationCost(points, k, j) + cost(points, i, k, j)));
+//   }
+//   return ans;
+// }
 
 double minTriangulationCostDP(Vertex *points, int n)
 {
@@ -150,7 +221,7 @@ double minTriangulationCostDP(Vertex *points, int n)
         dp[i][j] = Max;
         for (int k = i + 1; k < j; k++)
         {
-          double ans = dp[i][k] + dp[k][j] + cost(points, i, j, k);
+          double ans = dp[i][k] + dp[k][j] + cost(points, i, j, k); // i,j and j,k diagonals
           dp[i][j] = min(dp[i][j], ans);
         }
       }
@@ -159,56 +230,48 @@ double minTriangulationCostDP(Vertex *points, int n)
   return dp[0][n - 1];
 }
 
-double costForPoint(Vertex *points, int ind, int n)
+double minTriangulationCostGreedy(Vertex *points, int n)
 {
-  double sum = 0;
-  int start = (ind + 2) % n;
-  int end = (ind + n - 2) % n;
-  for (int i = start; i <= end; i++)
+  Diagonal arr[MAX * MAX];
+  int taken[MAX][MAX] = {0};
+  int count_diag = 0;
+  for (int i = 0; i < n; i++)
   {
-    sum += dist(points[i], points[ind]);
+    for (int j = i + 2; j <= n - 2; j++) // non-adjacent
+    {
+      if (!taken[i][j] && !taken[j][i])
+      {
+        taken[i][j] = 1;
+        taken[j][i] = 1;
+        double len = dist(points[i], points[j]);
+        arr[count_diag].i = i;
+        arr[count_diag].j = j;
+        arr[count_diag].length = len;
+        count_diag++;
+      }
+    }
   }
-  return sum;
-}
+  qsort(arr, count_diag, sizeof(Diagonal), cmp_diag);
 
-double cmp(const void *a, const void *b)
-{
-  return *((double *)a) - *((double *)b);
-}
-
-double minTriangulationCostgreedy(Vertex *points, int n)
-{
-  double *cost = (double *)malloc(sizeof(double) * n);
-  if (n == 3)
+  int visited[MAX][MAX] = {0};
+  double diag_cost = 0;
+  for (int k = 0; k < count_diag; k++)
   {
-    return (dist(points[0], points[1]) + dist(points[1], points[2]) + dist(points[2], points[0]));
+    Diagonal diag = arr[k];
+    if (!visited[diag.i][diag.j] && !intersects(points[diag.i], points[diag.j], points[(diag.i + 1) % n], points[(diag.j + 1) % n]))
+    {
+      visited[diag.i][diag.j] = 1;
+      diag_cost += diag.length;
+      // used diag.i and diag.j which can be printed later
+    }
   }
-  else if (n == 4)
+  double side_cost = 0;
+  for (int i = 0; i < n; i++)
   {
-    double d1 = dist(points[0], points[2]);
-    double d2 = dist(points[1], points[3]);
-    double res = min(d1, d2);
-    for (int i = 0; i < 4; i++)
-    {
-      res += dist(points[i % n], points[(i + 1) % n]);
-    }
-    return res;
+    int j = (i + 1) % n;
+    side_cost += dist(points[i], points[j]);
   }
-  else
-  {
-    for (int i = 0; i < n; i++)
-    {
-      cost[i] = costForPoint(points, i, n);
-    }
-    qsort(cost, n, sizeof(double), cmp);
-    double ans = cost[0];
-    for (int i = 0; i < n; i++)
-    {
-      ans += dist(points[i % n], points[(i + 1) % n]);
-    }
-    free(cost);
-    return ans;
-  }
+  return diag_cost + side_cost;
 }
 
 int main()
@@ -219,6 +282,7 @@ int main()
   FILE *fout1 = fopen("ObservationGreedy.csv", "w");
   FILE *fp1 = fopen("ResultsDP.txt", "w");
   FILE *fp2 = fopen("ResultsGreedy.txt", "w");
+  FILE *fdev = fopen("Deviations.txt", "w");
   fprintf(fout, "Vertices,Avg.Time Taken\n");
   fprintf(fout1, "Vertices,Avg.Time Taken\n");
   for (int i = 3; i <= MAX; i++)
@@ -232,6 +296,7 @@ int main()
       {
         poly = generatePolygon(i);
       } while (!isConvex(poly));
+      sort_vertices(poly.vertices, poly.total_vertices);
       Vertex points[i];
       fprintf(fp1, "Number of Vertices: %d\n", poly.total_vertices);
       fprintf(fp2, "Number of Vertices:%d\n", poly.total_vertices);
@@ -243,17 +308,18 @@ int main()
         fprintf(fp2, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
       }
       float start1 = clock();
-      minCost = minTriangulationCostgreedy(points, i);
+      minCost = minTriangulationCostGreedy(points, i);
       float end1 = clock();
       fprintf(fp2, "Cost of Triangulation is %f\n", minCost);
       float start = clock();
       minCostDP = minTriangulationCostDP(points, i);
       float end = clock();
+      fprintf(fdev, "%f\n", minCostDP - minCost);
       fprintf(fp1, "Cost of Triangulation is %f\n", minCostDP);
       float time_req = (end - start) * 1000 / CLOCKS_PER_SEC;
       float time_req1 = (end1 - start1) * 1000 / CLOCKS_PER_SEC;
       printf("Time taken for round %d using DP is %0.4fms\n", j + 1, time_req);
-      printf("Time taken for round %d is %0.4fms\n", j + 1, time_req1);
+      printf("Time taken for round %d using Greedy is %0.4fms\n", j + 1, time_req1);
       time_sum += time_req;
       time_sum1 += time_req1;
       fprintf(fp1, "\n");
@@ -267,5 +333,6 @@ int main()
   fclose(fp2);
   fclose(fout1);
   fclose(fout);
+  fclose(fdev);
   return 0;
 }

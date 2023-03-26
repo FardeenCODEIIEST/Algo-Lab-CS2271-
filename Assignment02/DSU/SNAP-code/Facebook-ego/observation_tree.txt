@@ -1,0 +1,3 @@
+Number of vertices: 4039
+Number of edges: 88234
+Average Time Taken for union-find operation: 22354 ms

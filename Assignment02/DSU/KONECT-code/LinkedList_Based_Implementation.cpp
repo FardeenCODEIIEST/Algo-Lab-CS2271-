@@ -187,7 +187,7 @@ int main()
   {
     edge_update(t, fin);
     UNION(t, start);
-    cout << (double)i / number_edges * 100 << "% completed \r";
+    cout << (double)i / (number_edges - 1) * 100 << "% completed \r";
   }
 
   fin.close();

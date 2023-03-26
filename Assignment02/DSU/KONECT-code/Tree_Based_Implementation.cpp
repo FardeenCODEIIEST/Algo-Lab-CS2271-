@@ -71,14 +71,14 @@ void UNION(edge e)
 
 // edge updation
 
-void edge_update(edge &present_edge, ifstream &fin)
+void edge_input(edge &present_edge, ifstream &fin)
 {
   if (!fin.eof())
   {
     char s[150];
     fin.getline(s, 150);
 
-    if (s[0] == '%') // removinf comments
+    if (s[0] == '%') // removing comments
     {
       while (s[0] == '%')
       {
@@ -96,7 +96,7 @@ void edge_update(edge &present_edge, ifstream &fin)
     present_edge.source = atoi(number) - 1; // 0 based indexing
 
     stream >> number;
-    present_edge.dest = atoi(number) - 1;
+    present_edge.dest = atoi(number) - 1; // 0 based indexing
   }
 }
 
@@ -119,9 +119,9 @@ int main()
   edge t;
   for (int i = 0; i < number_edges; i++)
   {
-    edge_update(t, fin);
+    edge_input(t, fin);
     UNION(t);
-    cout << (double)i / number_edges * 100 << "% completed \r";
+    cout << (double)i / (number_edges - 1) * 100 << "% completed \r";
   }
 
   fin.close();
