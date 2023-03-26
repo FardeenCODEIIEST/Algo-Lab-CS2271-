@@ -255,13 +255,15 @@ double minTriangulationCostGreedy(Vertex *points, int n)
 
   int visited[MAX][MAX] = {0};
   double diag_cost = 0;
+  int count = 0;
   for (int k = 0; k < count_diag; k++)
   {
     Diagonal diag = arr[k];
-    if (!visited[diag.i][diag.j] && !intersects(points[diag.i], points[diag.j], points[(diag.i + 1) % n], points[(diag.j + 1) % n]))
+    if (!visited[diag.i][diag.j] && !intersects(points[diag.i], points[diag.j], points[(diag.i + 1) % n], points[(diag.j + 1) % n]) && count <= n - 3)
     {
       visited[diag.i][diag.j] = 1;
       diag_cost += diag.length;
+      count++;
       // used diag.i and diag.j which can be printed later
     }
   }
