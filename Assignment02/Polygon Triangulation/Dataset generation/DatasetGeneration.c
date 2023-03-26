@@ -95,6 +95,44 @@ int isConvex(Polygon poly)
   return 1;
 }
 
+int cmp(const void *a, const void *b)
+{
+  Vertex *p1 = (Vertex *)a;
+  Vertex *p2 = (Vertex *)b;
+  return (p1->x - p2->x);
+}
+
+int orientation(Vertex v1, Vertex v2, Vertex v3) // for setting the orientation using cross product
+{
+  int res = (v2.y - v1.y) * (v3.x - v2.x) - (v2.x - v1.x) * (v3.y - v2.y);
+  if (res == 0)
+  { // collinear
+    return 0;
+  }
+  return (res > 0) ? 1 : 2; // cw or acw
+}
+
+// Shoelace theorem for ordering of vertices
+void sort_vertices(Vertex *points, int n)
+{
+  int leftmost = 0;
+  for (int i = 1; i < n; i++)
+  { // finding the leftmost point
+    if (points[i].x < points[leftmost].x)
+    {
+      leftmost = i;
+    }
+  }
+  // swap leftmost with first point
+  Vertex temp = points[0];
+  points[0] = points[leftmost];
+  points[leftmost] = temp;
+
+  qsort(points + 1, n - 1, sizeof(Vertex), cmp);
+  int ct = 1; // Number of points in the sorted array
+  // reverse order if orientation is clockwise
+}
+
 Polygon generatePolygon(int n)
 {
   Polygon P;
@@ -110,6 +148,7 @@ Polygon generatePolygon(int n)
     } while (!isConvex((Polygon){i, arr}));
     arr[i] = v;
   }
+  sort_vertices(arr, n); // ordering the vertices
   for (int i = 0; i < n; i++)
   {
     P.vertices[i] = arr[i];
@@ -120,7 +159,7 @@ Polygon generatePolygon(int n)
 int main()
 {
   srand(time(0));
-  FILE *fp = fopen("PolygonDatasetRAW.txt", "w");
+  FILE *fp = fopen("PolygonDataset.txt", "w");
   for (int i = 3; i <= MAX; i++)
   {
     int cnt = 0;
@@ -132,12 +171,12 @@ int main()
       {
         poly = generatePolygon(i);
       } while (!isConvex(poly));
-      // fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
+      fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
       for (int k = 0; k < poly.total_vertices; k++)
       {
         fprintf(fp, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
       }
-      // fprintf(fp, "\n");
+      fprintf(fp, "\n");
       cnt++;
       printf("\r%f %% done", ((float)cnt) / TOTAL * 100);
     }
