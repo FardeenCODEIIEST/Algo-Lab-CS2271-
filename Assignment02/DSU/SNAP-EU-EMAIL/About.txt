@@ -1,0 +1,8 @@
+email-Eu-core network
+
+Dataset information:
+The network was generated using email data from a large European research institution. We have anonymized information about all incoming and outgoing email between members of the research institution. There is an edge (u, v) in the network if person u sent person v at least one email. The e-mails only represent communication between institution members (the core), and the dataset does not contain incoming messages from or outgoing messages to the rest of the world.
+
+The dataset also contains "ground-truth" community memberships of the nodes. Each individual belongs to exactly one of 42 departments at the research institute.
+
+Available at: http://snap.stanford.edu/data/email-Eu-core.html
