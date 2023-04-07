@@ -12,6 +12,7 @@
 #include <time.h>
 #include <math.h>
 
+#define PI 3.14159265
 // Maximum Vertices the Polygon can have
 #define MAX 20
 
@@ -21,17 +22,21 @@
 // Total number of polygons to be generated
 #define TOTAL 50
 
-typedef struct
-{
-  int x;
-  int y;
-} Vertex;
+#define X0 100      // ref abscissa of center of circle circumscribing the polygon
+#define Y0 100      // ref ordinate of center of circle circumscribing the polygon
+#define THETA_REF 0 // Ref. theta value for the demoivre's circle
 
 typedef struct
 {
-  int total_vertices;
-  Vertex vertices[MAX];
-} Polygon;
+  double x;
+  double y;
+} Vertex;
+
+// typedef struct
+// {
+//   int total_vertices;
+//   Vertex vertices[MAX];
+// } Polygon;
 
 double min(double a, double b)
 {
@@ -47,6 +52,11 @@ Vertex generateVertex()
   return v;
 }
 
+int dist_sq(Vertex v1, Vertex v2)
+{
+  return (v1.x - v2.x) * (v1.x - v2.x) + (v1.y - v2.y) * (v1.y - v2.y);
+}
+
 double dist(Vertex v1, Vertex v2)
 {
   return sqrt((v1.x - v2.x) * (v1.x - v2.x) + (v1.y - v2.y) * (v1.y - v2.y));
@@ -58,48 +68,152 @@ int crossProduct(Vertex v1, Vertex v2) // vertex direction vector
 }
 
 // Function to determine if a polygon is convex
-int isConvex(Polygon poly)
+// int isConvex(Polygon poly)
+// {
+//   int n = poly.total_vertices;
+//   int crossproduct = 0;
+//   for (int i = 0; i < n; i++)
+//   {
+//     Vertex v1 = poly.vertices[i];
+//     Vertex v2 = poly.vertices[(i + 1) % n];
+//     Vertex v3 = poly.vertices[(i + 2) % n];
+//     int cp = crossProduct((Vertex){v2.x - v1.x, v2.y - v1.y}, (Vertex){v3.x - v2.x, v3.y - v2.y});
+//     if (i == 0)
+//     {
+//       crossproduct = cp;
+//     }
+//     else if (crossproduct * cp < 0)
+//     {
+//       return 0;
+//     }
+//   }
+//   return 1;
+// }
+
+int orientation(Vertex v1, Vertex v2, Vertex v3) // for setting the orientation using cross product
 {
-  int n = poly.total_vertices;
-  int crossproduct = 0;
-  for (int i = 0; i < n; i++)
-  {
-    Vertex v1 = poly.vertices[i];
-    Vertex v2 = poly.vertices[(i + 1) % n];
-    Vertex v3 = poly.vertices[(i + 2) % n];
-    int cp = crossProduct((Vertex){v2.x - v1.x, v2.y - v1.y}, (Vertex){v3.x - v2.x, v3.y - v2.y});
-    if (i == 0)
-    {
-      crossproduct = cp;
-    }
-    else if (crossproduct * cp < 0)
-    {
-      return 0;
-    }
+  int res = (v2.y - v1.y) * (v3.x - v2.x) - (v2.x - v1.x) * (v3.y - v2.y);
+  if (res == 0)
+  { // collinear
+    return 0;
   }
-  return 1;
+  return (res > 0) ? 1 : 2; // cw or acw
 }
 
-Polygon generatePolygon(int n)
+int compare(const void *a, const void *b)
 {
-  Polygon P;
-  P.total_vertices = n;
-  Vertex arr[n];
-  arr[0] = generateVertex();
+  Vertex *v1 = (Vertex *)a;
+  Vertex *v2 = (Vertex *)b;
+
+  int o = orientation((Vertex){0, 0}, *v1, *v2);
+  if (o == 0)
+  {
+    return (dist_sq((Vertex){0, 0}, *v2) >= dist_sq((Vertex){0, 0}, *v1)) ? -1 : 1;
+  }
+  return (o == 2) ? -1 : 1;
+}
+
+// Graham Scan algorithm; Convex Hull
+void convex_hull(Vertex *points, int n)
+{
+  int ymin = points[0].y, min = 0;
   for (int i = 1; i < n; i++)
   {
-    Vertex v;
-    do
+    int y = points[i].y;
+    if ((y < ymin) || (y == ymin && points[i].x < points[min].x)) // finding bottom leftmost point{
     {
-      v = generateVertex();
-    } while (!isConvex((Polygon){i, arr}));
-    arr[i] = v;
+      ymin = points[i].y;
+      min = i;
+    }
+  }
+  // swapping with the first point
+  Vertex temp = points[0];
+  points[0] = points[min];
+  points[min] = temp;
+  qsort(points + 1, n - 1, sizeof(Vertex), compare);
+  int m = 1; // current number of points
+  for (int i = 1; i < n; i++)
+  {
+    while (i < n - 1 && orientation((Vertex){0, 0}, points[i], points[i + 1]) == 0)
+    {
+      i++; // ignoring the collinear points
+    }
+    points[m] = points[i];
+    m++;
+  }
+  if (m < 3)
+  {
+    return;
+  }
+}
+
+void order_vertices(Vertex *points, int n)
+{
+  int x[n], y[n];
+  for (int i = 0; i < n; i++)
+  {
+    x[i] = points[i].x;
+    y[i] = points[i].y;
+  }
+  int i = 0;
+  for (int j = 1; j < n; j++)
+  {
+    if (x[j] < x[i])
+    {
+      i = j;
+    }
+    else if (x[j] == x[i] && y[j] < y[i])
+    {
+      i = j;
+    }
+  }
+  double theta[n];
+  for (int j = 0; j < n; j++)
+  {
+    if (x[j] == x[i])
+    {
+      if (y[j] > y[i])
+      {
+        theta[j] = PI / 2;
+      }
+      else
+      {
+        theta[j] = -PI / 2;
+      }
+    }
+    else
+    {
+      theta[j] = atan((double)(y[j] - y[i]) / (double)(x[j] - x[i]));
+    }
+  }
+  double sigma[n];
+  for (int j = 0; j < n; j++)
+  {
+    sigma[j] = theta[j];
+  }
+  for (int j = 0; j < n; j++)
+  {
+    for (int k = j + 1; k < n; k++)
+    {
+      if (sigma[k] < sigma[j])
+      {
+        double temp = sigma[k];
+        sigma[k] = sigma[j];
+        sigma[j] = temp;
+        int temp_x = x[k];
+        x[k] = x[j];
+        x[j] = temp_x;
+        int temp_y = y[k];
+        y[k] = y[j];
+        y[j] = temp_y;
+      }
+    }
   }
   for (int i = 0; i < n; i++)
   {
-    P.vertices[i] = arr[i];
+    points[i].x = x[i];
+    points[i].y = y[i];
   }
-  return P;
 }
 
 double cost(Vertex *points, int i, int j, int k)
@@ -125,9 +239,19 @@ double minTriangulationCost(Vertex *points, int i, int j)
   return ans;
 }
 
+void generate(Vertex *arr, int n, int radius)
+{
+  for (int i = 0; i < n; i++)
+  {
+    arr[i].x = X0 + radius * cos((2 * PI * i) / n);
+    arr[i].y = Y0 + radius * sin((2 * PI * i) / n);
+  }
+}
+
 int main()
 {
   srand(time(0));
+  int radius;
   double minCost;
   FILE *fout = fopen("ObservationBruteForce.csv", "w");
   FILE *fp = fopen("Results.txt", "w");
@@ -135,21 +259,18 @@ int main()
   for (int i = 3; i <= MAX; i++)
   {
     float time_sum = 0;
+    int cnt = 0;
     printf("\nNumber of Vertices:%d\n", i);
     for (int j = 0; j < TOTAL; j++)
     {
-      Polygon poly;
-      do
-      {
-        poly = generatePolygon(i);
-      } while (!isConvex(poly));
       Vertex points[i];
-      fprintf(fp, "Number of Vertices: %d\n", poly.total_vertices);
-      for (int k = 0; k < poly.total_vertices; k++)
+      radius = rand() % 100;
+      // fprintf(fp, "Radius: %d\n", radius);
+      generate(points, i, radius);
+      fprintf(fp, "Number of Vertices: %d\n", i);
+      for (int k = 0; k < i; k++)
       {
-        points[k].x = poly.vertices[k].x;
-        points[k].y = poly.vertices[k].y;
-        fprintf(fp, "%d,%d\n", poly.vertices[k].x, poly.vertices[k].y);
+        fprintf(fp, "%0.2f,%0.2f\n", points[k].x, points[k].y);
       }
       float start = clock();
       minCost = minTriangulationCost(points, 0, i - 1);
