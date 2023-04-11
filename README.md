@@ -5,7 +5,7 @@ Source Codes and PPT for all the Assignments given in the Algo-Lab(CS2271)
 
 # Assignment 1
 
-![img-2](Assignment01/slides/img-2.jpg)
+![img-1](Assignment01/slides/img-1.jpg)
 ![img-3](Assignment01/slides/img-3.jpg)
 ![img-4](Assignment01/slides/img-4.jpg)
 ![img-5](Assignment01/slides/img-5.jpg)
