@@ -3,7 +3,7 @@ Source Codes and PPT for all the Assignments given in the Algo-Lab(CS2271)
 
 # Slides
 
-# Assignment 1
+# [Assignment 1](https://github.com/FardeenCODEIIEST/Algo-Lab-CS2271-/tree/master/Assignment01)
 
 ![img-1](Assignment01/slides/img-1.jpg)
 ![img-3](Assignment01/slides/img-3.jpg)
@@ -63,7 +63,7 @@ Source Codes and PPT for all the Assignments given in the Algo-Lab(CS2271)
 ![img-57](Assignment01/slides/img-57.jpg)
 ![img-58](Assignment01/slides/img-58.jpg)
 
-# Assignment 2
+# [Assignment 2](https://github.com/FardeenCODEIIEST/Algo-Lab-CS2271-/tree/master/Assignment02)
    
 ![img-1](Assignment02/slides/img-1.jpg)
 ![img-2](Assignment02/slides/img-2.jpg)
