@@ -17,8 +17,10 @@ void count_characters(const char* filename, int* num_chars, char_data** char_fre
 int compare_chars(const void* a, const void* b);
 void sort_char_by_freq(char_data* char_freq, int num_chars);
 void display_char_codes(char_data* char_freq, int num_chars);
-//void shannon_fano(char_data* char_freq, int start, int end);
+
 char check_duplicate_codes(char_data* char_freq, int num_chars);
+void encoding(char_data* char_freq, int num_chars, const char* text_file, const char* encoded_text, const char* codebook);
+
 
 
 void count_characters(const char* filename, int* num_chars, char_data** char_freq)
@@ -41,6 +43,8 @@ void count_characters(const char* filename, int* num_chars, char_data** char_fre
     while ((c = fgetc(fp)) != EOF)
     {
         // incrementing frequency of character in freq_array
+        if(!freq_array[c].freq)
+            (*num_chars)++;
         freq_array[c].symbol = (char)c;
         freq_array[c].freq++;
         total_chars++;
@@ -51,13 +55,6 @@ void count_characters(const char* filename, int* num_chars, char_data** char_fre
     // sort freq_array in non-increasing order
     qsort(freq_array, 256, sizeof(char_data), compare_chars);
 
-    // copy positive frequency elements to char_freq
-    *num_chars = 0;
-    for (int i = 0; i < 256; i++)
-    {
-        if (freq_array[i].freq > 0)
-            (*num_chars)++;
-    }
     *char_freq = (char_data*) malloc(*num_chars * sizeof(char_data));
     int j = 0;
     for (int i = 0; i < 256; i++)
@@ -144,7 +141,7 @@ void shannon_fano(char_data* char_freq, int start, int end, int num_chars)
     else
         split_index = start;
 
-    //printf("\nStart = %d, End = %d, Split index = %d",start,end,split_index);
+    //Check 1: printf("\nStart = %d, End = %d, Split index = %d",start,end,split_index);
 
     for (int i = start; i <= split_index; i++)
     {
@@ -157,7 +154,7 @@ void shannon_fano(char_data* char_freq, int start, int end, int num_chars)
         char_freq[i].code[char_freq[i].top+1] = '\0';
     }
 
-    //display_char_codes(char_freq,num_chars);
+    //Check 2: display_char_codes(char_freq,num_chars);
 
     shannon_fano(char_freq, start, split_index, num_chars);
     shannon_fano(char_freq, split_index+1, end, num_chars);
@@ -193,17 +190,76 @@ double calc_avg_code_len(char_data* char_freq, int num_chars)
     return avg_len;
 }
 
-
-int main()
+void encoding(char_data* char_freq, int num_chars, const char* text_file, const char* encoded_text, const char* codebook)
 {
-    int num_chars;
+    FILE* fp1 = fopen(text_file, "r");
+    FILE* fp2 = fopen(encoded_text,"w");
+    FILE* fp3 = fopen(codebook,"w");
+    if (fp1 == NULL)
+    {
+        printf("Failed to open file %s\n", text_file);
+        return;
+    }
+    if(fp2 == NULL)
+    {
+        printf("Failed to open file %s\n", encoded_text);
+        fclose(fp1);
+        return;
+    }
+    if(fp3 == NULL)
+    {
+        printf("Failed to open file %s\n", codebook);
+        fclose(fp1);
+        fclose(fp2);
+        fclose(fp3);
+        return;
+    }
+    
+    // creating array of 256 struct elements and initialize frequencies to 0
+    char_data freq_array[256] = {0};
+
+    for (int i = 0; i < num_chars; i++)
+        freq_array[(int)char_freq[i].symbol] = char_freq[i];
+
+    fprintf(fp3, "%d\n", num_chars);
+
+    // Write the character frequency table to the output file
+    for (int i = 0; i < num_chars; i++)
+        fprintf(fp3, "%d %s\n", char_freq[i].symbol, char_freq[i].code);
+
+    // Rewind the input file
+    rewind(fp1);
+
+    int c;
+    while ((c = fgetc(fp1)) != EOF)
+    {
+        fprintf(fp2,"%s",freq_array[c].code);
+    }
+
+    fclose(fp1);
+    fclose(fp2);
+    fclose(fp3);
+}
+
+
+void main()
+{
+    int num_chars=0;
     char_data * char_freq = NULL;
-    count_characters("Text_Sample3.txt", &num_chars, &char_freq);
+    char original_file[] = "Text_Sample1.txt";
+    char encoded_file[] = "Text_Sample1_Shannon_Fano_Encoded.txt";
+    char codebook_file[] = "Text_Sample1_Shannon_Fano_Codebook.txt";
+    
+    count_characters(original_file, &num_chars, &char_freq);
+    
     printf("Number of characters: %d\n", num_chars);
     shannon_fano(char_freq,0,num_chars-1,num_chars);
     display_char_codes(char_freq,num_chars);
+    
     printf("%lf",calc_avg_code_len(char_freq,num_chars));
-    free(char_freq);
+    
+    encoding(char_freq, num_chars, original_file, encoded_file, codebook_file);
 
-    return 0;
+    free(char_freq);
+    printf("\nEnd of program");
 }
